@@ -1,19 +1,20 @@
 # Athena
 
-Aplikacija u razvoju.
+Minimalni kostur mobilne aplikacije za pracenje epileptickih napada. Projekat sadrzi dve osnovne stranice i most za pristup Google Health Connect podacima.
 
-## Opis
+## Struktura
+- **Evidencija** – ekran za evidenciju napada
+- **Test** – ekran sa dugmetom za preuzimanje podataka iz Health Connect-a
 
-Ovaj projekat je u fazi planiranja i razvoja.
+## Pokretanje
 
-## Instalacija
+```bash
+npm install
+npm run android # ili npm run ios
+```
 
-Instrukcije za instalaciju će biti dodate kasnije.
+## Testiranje
 
-## Korišćenje
-
-Instrukcije za korišćenje će biti dodate kasnije.
-
-## Licenca
-
-Ovaj projekat je pod [MIT licencom](LICENSE). 
+```
+npm test
+```
